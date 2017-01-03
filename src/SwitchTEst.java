@@ -16,7 +16,7 @@ public class SwitchTEst {
 		else if(month==11)days=31;
 		else if(month==12)days=30;
 		else System.out.println("unexpected error happend");
-		System.out.println("month : "+month+"  days : "+days);
+		System.out.println("month :"+month+"  days :"+days);
 		
 	}
 }
