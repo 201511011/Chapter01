@@ -32,14 +32,12 @@ public class SwitchTEst {
 				break;
 			}
 			case 2:
-			case 4:
-			case 6:
-			case 9:
-			case 11:{
+			
+			default:
+			{
 				days=30;
 				break;
 			}
-			default: System.out.println("해당월이 존재하지 않습니다");
 		}
 		
 		System.out.println("month :"+month+"  days :"+days);
