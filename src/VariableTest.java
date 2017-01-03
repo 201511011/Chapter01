@@ -3,7 +3,7 @@ public class VariableTest {
 	
 	int number;
 	
-	public void test(){
+	public final void test(){
 		int j=number+10;//인스턴스 변수는 초기화가 된다. 
 	}
 	
@@ -31,5 +31,43 @@ public class VariableTest {
 		System.out.println(l);
 		System.out.println(f);
 		System.out.println(d);
+		
+		//상수
+		final int MAX_SPEED=20;//
+		//max_speed = 200;//에러 : final이 붙은 변수는 이 후 대입을 할 수 없다.
+		
+		String str = new String("Hello World");
+		System.out.println(str);
+		
+		//String객체를 리터럴로 사용하기
+		String str1="Hello";
+		System.out.println(str1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 }
