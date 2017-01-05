@@ -5,9 +5,9 @@ public class IOTest {
 	public static void main(String[] args) {
 
 			Scanner scanner = new Scanner( System.in );
-			//줄만 바꿀 때
-			String string1= scanner.nextLine();
-			System.out.println(string1);
+//			//줄만 바꿀 때
+//			String string1= scanner.nextLine();
+//			System.out.println(string1);
 //			//System.out.print("Hello World를 반복할 수를 입력하세요 :");
 //			int count1= scanner.nextInt();
 //			int count2 = scanner.nextInt();
@@ -20,9 +20,10 @@ public class IOTest {
 //		    	count1--;
 //		    	i++;
 //		    }
-		    scanner.close();
-	   
-	   
+//		    scanner.close();
+		    String s = scanner.next();
+		    System.out.println(s);
+		    
 	   }		
 
 }
